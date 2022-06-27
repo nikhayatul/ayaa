@@ -1,0 +1,365 @@
+<!DOCTYPE HTML>
+<HTML>
+ <head>
+ <title>Latihan Markup</title>
+ <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+ <div id="wrapper">
+	 <div id="header">
+		 <img src="images/logo.png" alt="logo" />
+			 <ul id="menu-utama">
+				 <li><a href="index.html">Home</a></li>
+				 <li><a href="service.html">Service</a></li>
+				 <li><a href="about.html">About Us</a></li>
+				 <li><a href="contactus.html">Contact Us</a></li>
+			 </ul>
+		 <form>
+		 <input type="text" name="search" />
+		 </form>
+	 </div><!-- Penutup div "header" -->
+	<div id="daftar-artikel">
+		 <div class="artikel">			 
+			 <h1> Tentang Kami </h1>
+			 <b>Feb 12, 2007</b><b>Views : 3,487,497</b>
+			 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
+imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, 
+porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, 
+feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. 
+Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. 
+Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem 
+neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio 
+et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. 
+Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. 
+Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>			
+		 </div><!-- Penutup div "artikel" -->
+
+
+	</div><!-- Penutup div "daftar-artikel" -->
+	<div id="sidebar">
+		<h2>Who we are?</h2>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+			Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+			Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  
+		</p>
+		<h2>Artikel berdasarkan kategori</h2>
+		 <ul>
+			 <li><a href="">HTML dan CSS</a></li>
+			 <li><a href="">Javascript</a></li>
+			 <li><a href="">Photoshop</a></li>
+			 <li><a href="">Inspirasi</a></li>
+			 <li><a href="">Berita</a></li>
+			 <li><a href="">Off Topic</a></li>
+		 </ul>
+	</div><!-- Penutup div "sidebar" -->
+	<div id="footer">
+		<p>Desain Web copyright 2017 by Wahyu W</p>
+	</div>
+ </div><!-- Penutup div "wrapper" -->
+ </body>
+</html>
+ 
+<!DOCTYPE HTML>
+<HTML>
+ <head>
+ <title>Layout Web</title>
+ <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+ <div id="wrapper">
+	<div id="header">
+		<img src="images/logo.png" alt="logo" />
+			 <ul id="menu-utama">
+				 <li><a href="index.html">Home</a></li>
+				 <li><a href="service.html">Service</a></li>
+				 <li><a href="about.html">About Us</a></li>
+				 <li><a href="contactus.html">Contact Us</a></li>
+			 </ul>
+		 <form>
+		 <input type="text" class="txtsearch" name="search" />
+		 </form>
+	 </div><!-- Penutup div "header" -->
+	<div id="daftar-artikel">
+	  	<div class="artikel">	
+			<h3>Send us a message</h3>
+			<div class="form_contact">				 
+				<form id="myform" action="">
+				<p><label for="">Your name</label>
+				  <input type="text"></p>
+				<p><label for="">Skype</label>
+				  <input type="text"></p>
+				<p><label for="">Email Address</label>
+				  <input type="text"></p>
+				<p><label for="">Topic</label>
+				  <input type="text"></p>
+				<p class="full-width">
+				  <label for="">Write your message</label>
+				  <textarea name="" id="" cols="30" rows="7"></textarea></p>
+				<p class="full-width">
+				  <button>Send</button></p>
+				</form>
+			</div>	
+		</div><!-- Penutup div "artikel" -->	
+	</div><!-- Penutup div "daftar-artikel" -->
+	<div id="sidebar">
+		<h2>Who we are?</h2>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+			Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+			Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  
+		</p>
+		<h2>Artikel berdasarkan kategori</h2>
+		 <ul>
+			 <li><a href="">HTML dan CSS</a></li>
+			 <li><a href="">Javascript</a></li>
+			 <li><a href="">Photoshop</a></li>
+			 <li><a href="">Inspirasi</a></li>
+			 <li><a href="">Berita</a></li>
+			 <li><a href="">Off Topic</a></li>
+		 </ul>
+	</div><!-- Penutup div "sidebar" -->
+	<div id="footer">
+		<p>Desain Web copyright 2017 by Wahyu W</p>
+	</div>
+ </div><!-- Penutup div "wrapper" -->
+ </body>
+</html>
+ 
+
+
+<!DOCTYPE HTML>
+<HTML>
+ <head>
+ <title>Layout Web</title>
+ <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+ <div id="wrapper">
+	<div id="header">
+		<img src="images/logo.png" alt="logo" />
+			 <ul id="menu-utama">
+				 <li><a href="index.html">Home</a></li>
+				 <li><a href="service.html">Service</a></li>
+				 <li><a href="about.html">About Us</a></li>
+				 <li><a href="contactus.html">Contact Us</a></li>
+			 </ul>
+		 <form>
+		 <input type="text" name="search" />
+		 </form>
+	 </div><!-- Penutup div "header" -->
+	<div id="daftar-artikel">
+		 <div class="artikel">
+			 <img src="images/gambar-artikel.jpg" alt="Gambar Artikel" />
+			 <h1> Judul Artikel </h1>
+			 <b>Feb 12, 2007</b><b>Views : 3,487,497</b>
+			 <p>Bill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac ads</p>
+			 <a href="">Watch This</a>
+		 </div><!-- Penutup div "artikel" -->
+		 <div class="artikel">
+			<img src="images/gambar-artikel.jpg" alt="Gambar Artikel" />
+			 <h1> Judul Artikel </h1>
+			 <b>Feb 12, 2007</b><b>Views : 3,487,497</b>
+			 <p>Bill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac ads</p>
+			 <a href="">Watch This</a>
+		 </div><!-- Penutup div "artikel" -->
+		 <div class="artikel">
+			<img src="images/gambar-artikel.jpg" alt="Gambar Artikel" />
+			 <h1> Judul Artikel </h1>
+			 <b>Feb 12, 2007</b><b>Views : 3,487,497</b>
+			 <p>Bill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac ads</p>
+			 <a href="">Watch This</a>
+		 </div><!-- Penutup div "artikel" -->
+	</div><!-- Penutup div "daftar-artikel" -->
+	<div id="sidebar">
+		<h2>Who we are?</h2>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+			Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+			Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  
+		</p>
+		<h2>Artikel berdasarkan kategori</h2>
+		 <ul>
+			 <li><a href="">HTML dan CSS</a></li>
+			 <li><a href="">Javascript</a></li>
+			 <li><a href="">Photoshop</a></li>
+			 <li><a href="">Inspirasi</a></li>
+			 <li><a href="">Berita</a></li>
+			 <li><a href="">Off Topic</a></li>
+		 </ul>
+	</div><!-- Penutup div "sidebar" -->
+	<div id="footer">
+		<p>Desain Web copyright 2017 by Wahyu W</p>
+	</div>
+ </div><!-- Penutup div "wrapper" -->
+ </body>
+</html>
+ 
+<!DOCTYPE HTML>
+<HTML>
+ <head>
+ <title>Latihan Markup</title>
+ <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+ <div id="wrapper">
+	 <div id="header">
+		 <img src="images/logo.png" alt="logo" />
+			 <ul id="menu-utama">
+				 <li><a href="index.html">Home</a></li>
+				 <li><a href="service.html">Service</a></li>
+				 <li><a href="about.html">About Us</a></li>
+				 <li><a href="contactus.html">Contact Us</a></li>
+			 </ul>
+		 <form>
+		 <input type="text" name="search" />
+		 </form>
+	 </div><!-- Penutup div "header" -->
+	<div id="daftar-artikel">
+		 <div class="artikel">
+			 <img src="images/gambar-artikel.jpg" alt="Gambar Artikel" />
+			 <h1> Ini Page Service </h1>
+			 <b>Feb 12, 2007</b><b>Views : 3,487,497</b>
+			 <p>Bill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac ads.
+			Bill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac adsBill Gates and Steve Jobs square off in the clean
+			white virtual world of the iconic Mac ads</p>
+			 <a href="">Watch This</a>
+		 </div><!-- Penutup div "artikel" -->
+
+	</div><!-- Penutup div "daftar-artikel" -->
+	<div id="sidebar">
+		<h2>Who we are?</h2>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+			Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+			Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  
+		</p>
+		<h2>Artikel berdasarkan kategori</h2>
+		 <ul>
+			 <li><a href="">HTML dan CSS</a></li>
+			 <li><a href="">Javascript</a></li>
+			 <li><a href="">Photoshop</a></li>
+			 <li><a href="">Inspirasi</a></li>
+			 <li><a href="">Berita</a></li>
+			 <li><a href="">Off Topic</a></li>
+		 </ul>
+	</div><!-- Penutup div "sidebar" -->
+	<div id="footer">
+		<p>Desain Web copyright 2017 by Wahyu W</p>
+	</div>
+ </div><!-- Penutup div "wrapper" -->
+ </body>
+</html>
+
+/* mobile */
+@media screen and (max-width: 414px){
+   #wrapper{
+   	width: 100%;
+   	margin: 0 auto;
+   }
+   #header form{
+   	margin-top: -80px;
+   	display: none;
+   }
+   #header{
+   	height: 100%;
+   	padding: 5px;
+   	margin: 20px 0;
+   	border-radius: 10px;
+   }
+   #menu-utama li {
+   	display: inline-block;
+   	margin-left: -10px;
+   }
+   #myform {
+   	display: grid;
+   	grid-template-columns: 1fr;
+   }
+   #daftar artikel {
+   	width: 100%;
+   	float: inherit;
+   }
+   .artikel {
+   	border-radius: 10px;
+   }
+   .artikel b {
+   	font-size: 10px;
+   }
+   .artikel img{
+   	width: 90px;
+   	height: 115px;
+   }
+   #sidebar{
+   	width: 100%;
+   	float: inherit;
+   }
+   #sidebar h2{
+    text-align: center;
+   }
+   #sidebar p{
+   	padding: 5px;
+   	text-align: center;
+   }
+}
+
+/* tablet */
+@media screen and (max-width: 568px){
+	#wrapper{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#header form {
+		display: none;
+	}
+	#header {
+		height: 100%;
+		padding: 5%;
+		margin: 20px 0;
+		border-radius: 10px;
+	}
+	#menu-utama li{
+		display: inline-block;
+	}
+	#daftar-artikel {
+         width: 100%;
+         float: inherit;
+	}
+	.artikel {
+		border-radius: 10px;
+	}
+	#sidebar{
+		width: 100%;
+		float: inherit;
+	}
+	#sidebar h2{
+		text-align: center;
+	}
+	#sidebar p{
+		padding: 5px;
+		text-align: center;
+	}
+}
